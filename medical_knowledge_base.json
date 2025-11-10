@@ -1,0 +1,648 @@
+{
+  "diseases": [
+    {
+      "id": "dengue_fever",
+      "name": "Dengue Fever",
+      "description": "Viral infection transmitted by Aedes mosquitoes",
+      "symptoms": [
+        "fever",
+        "body ache",
+        "headache",
+        "rash",
+        "joint pain",
+        "nausea",
+        "vomiting"
+      ],
+      "prevalence": 0.45,
+      "severity": "moderate",
+      "incubation_days": 3,
+      "causes": [
+        "Dengue virus (DENV-1, DENV-2, DENV-3, DENV-4)",
+        "Aedes aegypti mosquito bite",
+        "Aedes albopictus mosquito bite"
+      ],
+      "risk_factors": [
+        "Tropical climate",
+        "Recent travel to endemic areas",
+        "Mosquito exposure",
+        "Weak immunity"
+      ],
+      "complications": [
+        "Dengue hemorrhagic fever",
+        "Dengue shock syndrome",
+        "Internal bleeding",
+        "Organ failure"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "recommendation": "Paracetamol (Acetaminophen) 500mg every 6 hours",
+          "warning": "Avoid NSAIDs like ibuprofen"
+        },
+        {
+          "type": "medication",
+          "recommendation": "IV fluids for hydration"
+        },
+        {
+          "type": "lifestyle",
+          "recommendation": "Complete bed rest for 7-10 days"
+        },
+        {
+          "type": "lifestyle",
+          "recommendation": "Monitor platelet count regularly"
+        }
+      ],
+      "diagnostic_tests": [
+        "Dengue NS1 antigen test",
+        "Dengue IgM/IgG antibody test",
+        "RT-PCR test",
+        "Complete blood count",
+        "Platelet count"
+      ],
+      "duration_days": 7
+    },
+    {
+      "id": "typhoid",
+      "name": "Typhoid Fever",
+      "description": "Bacterial infection caused by Salmonella typhi",
+      "symptoms": [
+        "fever",
+        "headache",
+        "weakness",
+        "abdominal pain",
+        "diarrhea",
+        "rash",
+        "delirium"
+      ],
+      "prevalence": 0.35,
+      "severity": "moderate",
+      "incubation_days": 6,
+      "causes": [
+        "Salmonella typhi bacteria",
+        "Contaminated food or water",
+        "Poor sanitation"
+      ],
+      "risk_factors": [
+        "Travel to endemic areas",
+        "Exposure to contaminated water",
+        "Poor hygiene",
+        "Immunocompromised state"
+      ],
+      "complications": [
+        "Intestinal perforation",
+        "Septicemia",
+        "Myocarditis",
+        "Delirium",
+        "Death if untreated"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "recommendation": "Ceftriaxone 2g IV every 12 hours"
+        },
+        {
+          "type": "medication",
+          "recommendation": "Ciprofloxacin 500mg twice daily if drug resistant"
+        },
+        {
+          "type": "lifestyle",
+          "recommendation": "Strict bed rest"
+        },
+        {
+          "type": "lifestyle",
+          "recommendation": "High-calorie nutritious diet"
+        }
+      ],
+      "diagnostic_tests": [
+        "Blood culture",
+        "Widal test",
+        "Liver function tests",
+        "Bone marrow culture"
+      ],
+      "duration_days": 14
+    },
+    {
+      "id": "pneumonia",
+      "name": "Pneumonia",
+      "description": "Infection causing lung inflammation and fluid buildup",
+      "symptoms": [
+        "cough",
+        "fever",
+        "shortness of breath",
+        "chest pain",
+        "phlegm",
+        "body ache",
+        "fatigue"
+      ],
+      "prevalence": 0.25,
+      "severity": "moderate",
+      "incubation_days": 2,
+      "causes": [
+        "Bacterial infection (Streptococcus pneumoniae)",
+        "Viral infection (influenza, RSV)",
+        "Fungal infection"
+      ],
+      "risk_factors": [
+        "Smoking",
+        "Chronic lung disease",
+        "Weak immunity",
+        "Advanced age",
+        "Aspiration"
+      ],
+      "complications": [
+        "Respiratory failure",
+        "Sepsis",
+        "Pleural effusion",
+        "Empyema",
+        "Shock"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "recommendation": "Amoxicillin-clavulanate 875mg twice daily"
+        },
+        {
+          "type": "medication",
+          "recommendation": "Or Azithromycin 500mg daily for atypical"
+        },
+        {
+          "type": "lifestyle",
+          "recommendation": "Rest and oxygen therapy if needed"
+        },
+        {
+          "type": "lifestyle",
+          "recommendation": "Monitor oxygen saturation"
+        }
+      ],
+      "diagnostic_tests": [
+        "Chest X-ray",
+        "Complete blood count",
+        "Sputum culture",
+        "Blood culture",
+        "Pulse oximetry"
+      ],
+      "duration_days": 10
+    },
+    {
+      "id": "influenza",
+      "name": "Influenza (Flu)",
+      "description": "Contagious respiratory illness caused by influenza virus",
+      "symptoms": [
+        "fever",
+        "cough",
+        "body ache",
+        "headache",
+        "fatigue",
+        "sore throat",
+        "runny nose"
+      ],
+      "prevalence": 0.40,
+      "severity": "mild",
+      "incubation_days": 1,
+      "causes": [
+        "Influenza A virus",
+        "Influenza B virus",
+        "Influenza C virus"
+      ],
+      "risk_factors": [
+        "Winter season",
+        "Close contact with infected person",
+        "Weak immunity",
+        "Chronic illness"
+      ],
+      "complications": [
+        "Pneumonia",
+        "Respiratory failure",
+        "Myocarditis",
+        "Encephalitis",
+        "Death in severe cases"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "recommendation": "Oseltamivir (Tamiflu) 75mg twice daily if within 48 hours"
+        },
+        {
+          "type": "medication",
+          "recommendation": "Paracetamol 500mg every 6 hours for fever"
+        },
+        {
+          "type": "lifestyle",
+          "recommendation": "Rest and fluid intake"
+        },
+        {
+          "type": "lifestyle",
+          "recommendation": "Isolation for 5-7 days"
+        }
+      ],
+      "diagnostic_tests": [
+        "Rapid influenza test",
+        "RT-PCR test",
+        "Throat swab culture"
+      ],
+      "duration_days": 7
+    },
+    {
+      "id": "covid_19",
+      "name": "COVID-19",
+      "description": "Coronavirus disease 2019 caused by SARS-CoV-2",
+      "symptoms": [
+        "fever",
+        "cough",
+        "shortness of breath",
+        "fatigue",
+        "loss of taste",
+        "loss of smell",
+        "headache"
+      ],
+      "prevalence": 0.30,
+      "severity": "variable",
+      "incubation_days": 5,
+      "causes": [
+        "SARS-CoV-2 virus",
+        "Airborne transmission",
+        "Close contact"
+      ],
+      "risk_factors": [
+        "Age over 60",
+        "Chronic disease",
+        "Immunocompromised",
+        "Unvaccinated"
+      ],
+      "complications": [
+        "Severe respiratory distress",
+        "Thromboembolism",
+        "Multi-organ failure",
+        "Long COVID",
+        "Death"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "recommendation": "Supportive care with oxygen if needed"
+        },
+        {
+          "type": "medication",
+          "recommendation": "Antiviral: Remdesivir if severe"
+        },
+        {
+          "type": "medication",
+          "recommendation": "Paracetamol for symptoms"
+        },
+        {
+          "type": "lifestyle",
+          "recommendation": "Isolation and monitoring"
+        }
+      ],
+      "diagnostic_tests": [
+        "RT-PCR test",
+        "Rapid antigen test",
+        "Chest CT scan if severe",
+        "Complete blood count"
+      ],
+      "duration_days": 14
+    },
+    {
+      "id": "malaria",
+      "name": "Malaria",
+      "description": "Parasitic infection transmitted by mosquitoes",
+      "symptoms": [
+        "fever",
+        "chills",
+        "body ache",
+        "headache",
+        "nausea",
+        "vomiting",
+        "sweating"
+      ],
+      "prevalence": 0.38,
+      "severity": "moderate",
+      "incubation_days": 10,
+      "causes": [
+        "Plasmodium parasites",
+        "Anopheles mosquito bite",
+        "Blood transfusion"
+      ],
+      "risk_factors": [
+        "Travel to endemic areas",
+        "Mosquito exposure",
+        "Pregnancy",
+        "Weak immunity"
+      ],
+      "complications": [
+        "Cerebral malaria",
+        "Severe anemia",
+        "Acute kidney injury",
+        "Pulmonary edema",
+        "Death"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "recommendation": "Artemether 320mg IM daily for severe"
+        },
+        {
+          "type": "medication",
+          "recommendation": "Chloroquine 600mg base for P. vivax/ovale"
+        },
+        {
+          "type": "lifestyle",
+          "recommendation": "Mosquito prevention"
+        }
+      ],
+      "diagnostic_tests": [
+        "Blood smear microscopy",
+        "Rapid diagnostic test (RDT)",
+        "PCR test",
+        "Complete blood count"
+      ],
+      "duration_days": 7
+    },
+    {
+      "id": "common_cold",
+      "name": "Common Cold",
+      "description": "Mild viral infection of upper respiratory tract",
+      "symptoms": [
+        "runny nose",
+        "cough",
+        "sore throat",
+        "headache",
+        "sneezing",
+        "mild fever"
+      ],
+      "prevalence": 0.80,
+      "severity": "mild",
+      "incubation_days": 1,
+      "causes": [
+        "Rhinovirus",
+        "Coronavirus",
+        "Parainfluenza virus"
+      ],
+      "risk_factors": [
+        "Winter season",
+        "Close contact with infected person",
+        "Stress",
+        "Lack of sleep"
+      ],
+      "complications": [
+        "Secondary bacterial infection",
+        "Sinusitis",
+        "Otitis media",
+        "Bronchitis"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "recommendation": "Paracetamol 500mg for fever"
+        },
+        {
+          "type": "lifestyle",
+          "recommendation": "Rest and fluids"
+        },
+        {
+          "type": "lifestyle",
+          "recommendation": "Saline nasal drops"
+        }
+      ],
+      "diagnostic_tests": [
+        "Clinical diagnosis",
+        "Throat swab if needed"
+      ],
+      "duration_days": 3
+    },
+    {
+      "id": "migraine",
+      "name": "Migraine",
+      "description": "Intense headache with neurological symptoms",
+      "symptoms": [
+        "severe headache",
+        "nausea",
+        "vomiting",
+        "light sensitivity",
+        "sound sensitivity",
+        "visual disturbances"
+      ],
+      "prevalence": 0.20,
+      "severity": "variable",
+      "incubation_days": 0,
+      "causes": [
+        "Neurological condition",
+        "Hormonal changes",
+        "Trigger foods",
+        "Stress"
+      ],
+      "risk_factors": [
+        "Female gender",
+        "Age 15-55",
+        "Family history",
+        "Hormonal changes"
+      ],
+      "complications": [
+        "Status migrainosus",
+        "Medication overuse headache",
+        "Stroke"
+      ],
+      "treatments": [
+        {
+          "type": "medication",
+          "recommendation": "Sumatriptan 50mg oral or nasal"
+        },
+        {
+          "type": "medication",
+          "recommendation": "Propranolol 40mg for prevention"
+        },
+        {
+          "type": "lifestyle",
+          "recommendation": "Rest in dark room"
+        }
+      ],
+      "diagnostic_tests": [
+        "Clinical diagnosis",
+        "MRI if concerning features"
+      ],
+      "duration_days": 1
+    }
+  ],
+  "symptoms": [
+    {
+      "id": "fever",
+      "name": "Fever",
+      "severity_levels": ["mild", "moderate", "severe"],
+      "associated_diseases": [
+        "dengue_fever",
+        "typhoid",
+        "influenza",
+        "covid_19",
+        "malaria",
+        "pneumonia",
+        "common_cold"
+      ],
+      "normal_range": "36.5-37.5°C",
+      "high_risk_above": "39°C"
+    },
+    {
+      "id": "cough",
+      "name": "Cough",
+      "types": ["dry", "productive", "persistent"],
+      "associated_diseases": [
+        "pneumonia",
+        "influenza",
+        "covid_19",
+        "common_cold",
+        "tuberculosis"
+      ]
+    },
+    {
+      "id": "body_ache",
+      "name": "Body Ache",
+      "severity_levels": ["mild", "moderate", "severe"],
+      "associated_diseases": [
+        "dengue_fever",
+        "influenza",
+        "malaria",
+        "covid_19"
+      ]
+    },
+    {
+      "id": "headache",
+      "name": "Headache",
+      "types": ["tension", "throbbing", "sharp"],
+      "associated_diseases": [
+        "dengue_fever",
+        "typhoid",
+        "influenza",
+        "covid_19",
+        "malaria",
+        "migraine"
+      ]
+    },
+    {
+      "id": "shortness_of_breath",
+      "name": "Shortness of Breath",
+      "severity_levels": ["mild", "moderate", "severe"],
+      "associated_diseases": [
+        "pneumonia",
+        "covid_19",
+        "asthma",
+        "heart_disease"
+      ],
+      "requires_emergency": true
+    },
+    {
+      "id": "sore_throat",
+      "name": "Sore Throat",
+      "severity_levels": ["mild", "moderate", "severe"],
+      "associated_diseases": [
+        "influenza",
+        "common_cold",
+        "strep_throat"
+      ]
+    },
+    {
+      "id": "nausea",
+      "name": "Nausea",
+      "with_vomiting": true,
+      "associated_diseases": [
+        "dengue_fever",
+        "typhoid",
+        "malaria",
+        "covid_19",
+        "migraine"
+      ]
+    },
+    {
+      "id": "rash",
+      "name": "Rash",
+      "types": ["maculopapular", "urticarial", "petechial"],
+      "associated_diseases": [
+        "dengue_fever",
+        "typhoid",
+        "measles",
+        "chickenpox"
+      ]
+    }
+  ],
+  "medications": [
+    {
+      "id": "paracetamol",
+      "name": "Paracetamol (Acetaminophen)",
+      "dose": "500mg",
+      "frequency": "Every 6 hours",
+      "max_daily": "4000mg",
+      "contraindications": ["liver_disease"],
+      "side_effects": ["rare_liver_toxicity"],
+      "interactions": []
+    },
+    {
+      "id": "ibuprofen",
+      "name": "Ibuprofen",
+      "dose": "400mg",
+      "frequency": "Every 8 hours",
+      "max_daily": "1200mg",
+      "contraindications": ["dengue_fever", "bleeding_disorder"],
+      "side_effects": ["gastrointestinal_upset", "bleeding"],
+      "interactions": ["warfarin", "aspirin"]
+    },
+    {
+      "id": "ceftriaxone",
+      "name": "Ceftriaxone",
+      "dose": "2g",
+      "frequency": "Every 12 hours",
+      "route": "IV",
+      "contraindications": ["penicillin_allergy"],
+      "side_effects": ["allergic_reaction", "diarrhea"],
+      "interactions": []
+    },
+    {
+      "id": "ciprofloxacin",
+      "name": "Ciprofloxacin",
+      "dose": "500mg",
+      "frequency": "Twice daily",
+      "contraindications": ["pregnancy", "tendon_disease"],
+      "side_effects": ["tendon_rupture", "qT_prolongation"],
+      "interactions": ["theophylline"]
+    }
+  ],
+  "drug_interactions": [
+    {
+      "drug1": "warfarin",
+      "drug2": "aspirin",
+      "severity": "high",
+      "description": "Increased bleeding risk"
+    },
+    {
+      "drug1": "metformin",
+      "drug2": "contrast_dye",
+      "severity": "high",
+      "description": "Risk of acute kidney injury"
+    },
+    {
+      "drug1": "ace_inhibitors",
+      "drug2": "potassium_supplements",
+      "severity": "high",
+      "description": "Hyperkalemia risk"
+    }
+  ],
+  "allergies": [
+    {
+      "id": "penicillin",
+      "name": "Penicillin",
+      "severity": "high",
+      "cross_reactivity": ["cephalosporins"],
+      "avoidable_drugs": [
+        "amoxicillin",
+        "ampicillin",
+        "penicillin_v"
+      ]
+    },
+    {
+      "id": "sulfa",
+      "name": "Sulfonamides",
+      "severity": "moderate",
+      "avoidable_drugs": [
+        "sulfamethoxazole",
+        "sulfadiazine"
+      ]
+    }
+  ]
+}

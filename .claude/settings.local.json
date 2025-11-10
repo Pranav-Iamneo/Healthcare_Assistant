@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m pip:*)",
+      "Bash(python agno_app.py:*)",
+      "Bash(python:*)",
+      "Bash(taskkill:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(wmic process where ProcessId=25692 delete)",
+      "Bash(pkill:*)",
+      "Bash(timeout 10 python:*)",
+      "Bash(timeout 15 python:*)",
+      "Bash(timeout 20 python:*)",
+      "Bash(AGNO_PORT=8002 timeout 25 python:*)",
+      "Bash(AGNO_PORT=8080 timeout 25 python:*)",
+      "Bash(dir \"C:\\Agentic_AI\\Updated_Design_mind-main\" /s /b)",
+      "Bash(streamlit run:*)",
+      "Bash(dir C:Agnohealthcare-assistant.env 2)",
+      "Bash(nul)",
+      "Bash(dir \"C:\\Agno\\healthcare-assistant\\agents\" /s)",
+      "Bash(curl:*)",
+      "Bash(timeout 5 python:*)",
+      "Bash(dir)",
+      "Bash(test:*)",
+      "Bash(cat:*)",
+      "Bash(tree:*)",
+      "Bash(dir \"C:\\Agno\\healthcare-assistant\" /s /b)",
+      "Bash(dir:*)",
+      "Bash(git --version:*)",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
